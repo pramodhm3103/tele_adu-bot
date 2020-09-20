@@ -1,2 +1,2 @@
-python-telegram-ada-bot
+python-telegram-bot
 adafruit-IO
