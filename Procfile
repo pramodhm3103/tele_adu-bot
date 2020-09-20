@@ -1,1 +1,1 @@
-worker: python telegram_ada bot
+worker: python telegram_ada bot.py
