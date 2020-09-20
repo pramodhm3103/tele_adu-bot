@@ -5,6 +5,7 @@ import os
 x = os.getenv('x')
 y = os.getenv('y')
 z = os.getenv('z')
+aio = Client(x,y)
 
 
 def on(bot,update):
@@ -38,5 +39,3 @@ dp.add_handler(CommandHandler('turnoff',off))
 dp.add_handler(MessageHandler(Filters.text&(~Filters.command),inmes))
 u.start_polling()
 u.idle()
-   
-   
