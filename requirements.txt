@@ -1,2 +1,2 @@
-Updater,CommandHandler,MessageHandler,Filters
-Client, Data 
+python-telegram-bot
+adafruit-IO
